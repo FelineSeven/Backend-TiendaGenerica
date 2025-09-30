@@ -13,7 +13,7 @@ import javax.persistence.Table;
 
 /**
  *
- * @author Carlos
+ * @author Portatil
  */
 
 @Entity

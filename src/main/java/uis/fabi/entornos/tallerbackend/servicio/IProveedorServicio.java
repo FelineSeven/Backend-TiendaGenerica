@@ -9,7 +9,7 @@ import uis.fabi.entornos.tallerbackend.modelo.Proveedor;
 
 /**
  *
- * @author Carlos
+ * @author Portatil
  */
 public interface IProveedorServicio {
     
