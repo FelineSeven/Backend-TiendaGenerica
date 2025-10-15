@@ -43,11 +43,11 @@ public class Usuario {
         this.id = id; 
     }
 
-    public Integer getIdTipoDocumento() { 
-        return idTipoDocumento; 
+    public TipoDocumento getTipoDocumento() { 
+        return tipoDocumento; 
     }
-    public void setIdTipoDocumento(Integer idTipoDocumento) { 
-        this.idTipoDocumento = idTipoDocumento; 
+    public void setTipoDocumento(TipoDocumento tipoDocumento) { 
+        this.tipoDocumento = tipoDocumento; 
     }
 
     public String getNumeroDocumento() { 
