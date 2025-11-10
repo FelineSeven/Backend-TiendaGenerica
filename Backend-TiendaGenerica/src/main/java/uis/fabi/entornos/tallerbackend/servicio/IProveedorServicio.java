@@ -1,0 +1,23 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
+ */
+package uis.fabi.entornos.tallerbackend.servicio;
+
+import java.util.List;
+import uis.fabi.entornos.tallerbackend.modelo.Proveedor;
+
+/**
+ *
+ * @author Portatil
+ */
+public interface IProveedorServicio {
+    
+    List<Proveedor> getProveedor();
+    
+    Proveedor nuevoProveedor(Proveedor proveedor);
+    
+    Proveedor buscarProveedor(Long id);
+    
+    int borrarProveedor(Long id);
+}
